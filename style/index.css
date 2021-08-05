@@ -4,21 +4,24 @@
 
 }
 
+body{
+    background-color: rgb(58, 51, 51);
+}
+
 .userCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 200px;
+    
 }
 
 .infoPeople{
     position: relative;
     top: 10px;
     bottom: 10px;
-    z-index: 10;
+    z-index: 4;
     margin-top: 100px
-    overflow: hidden;
-    display: block;
 }
 
 .userPhoto{
@@ -30,17 +33,67 @@
     background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: ;
+    border-radius: 15px;
+    box-shadow: 0px 1px 50px black;
 }
 
 .name{
     color: azure;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .userInfo{
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0);
     color:white;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.info{
+    position:relative;
+    margin-bottom: 50px;
+    margin-top: -12px;
+    background-color: honeydew;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 1px 50px black;
+    z-index: 2;
     
+}
+
+.number{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+.nameStat{
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.button{
+    background-color: rgb(206, 2, 2);
+    width: 200px;
+    height: 100px;
+    position: relative;
+    margin-top: -60px;
+    border-radius: 14px;
+    box-shadow: 0px 1px 50px black;
+}
+
+.buttonText{
+    text-align: center;
+    margin-top: 32px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
