@@ -1,0 +1,46 @@
+*{
+    
+    margin: 0 auto;
+
+}
+
+.userCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.infoPeople{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    z-index: 10;
+    margin-top: 100px
+    overflow: hidden;
+    display: block;
+}
+
+.userPhoto{
+    box-sizing: relative;
+    width: 400px;
+    height: 400px;
+    z-index: 9;
+    background-image: url(/style/img/Washington.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: ;
+}
+
+.name{
+    color: azure;
+    margin-bottom: 30px;
+}
+
+.userInfo{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
+    
+}
